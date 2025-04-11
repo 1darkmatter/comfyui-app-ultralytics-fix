@@ -58,12 +58,22 @@ _pickle.UnpicklingError: Weights only load failed. GLOBAL 'getattr' was not an a
   </ul>
 
   <hr/>
-  <footer>
-    <p>Credits:</p>
-    <ul>
-      <li><a href="https://civitai.com/user/midnight1111" target="_blank" rel="noopener">midnight1111 on Civitai</a></li>
-      <li><a href="https://magnabos.co/" target="_blank" rel="noopener">Magnabos</a></li>
-      <li><a href="https://linktr.ee/midnight1111?subscribe" target="_blank" rel="noopener">Subscribe to midnight1111</a></li>
-    </ul>
+
+  <footer style="padding: 1em; background: #f9f9f9; text-align: center; border-radius: 8px;">
+    <p style="margin: 0 0 0.5em; font-weight: bold;">Credits &amp; Links</p>
+    <div style="display: inline-flex; gap: 1.5em; flex-wrap: wrap; justify-content: center;">
+      <a href="https://civitai.com/user/midnight1111" target="_blank" rel="noopener" style="text-decoration: none;">
+        <img src="https://civitai.com/favicon.ico" alt="" style="vertical-align: middle; width:16px; height:16px;">
+        midnight1111 on Civitai
+      </a>
+      <a href="https://magnabos.co/" target="_blank" rel="noopener" style="text-decoration: none;">
+        <img src="https://magnabos.co/favicon.ico" alt="" style="vertical-align: middle; width:16px; height:16px;">
+        Magnabos.co
+      </a>
+      <a href="https://linktr.ee/midnight1111?subscribe" target="_blank" rel="noopener" style="text-decoration: none;">
+        <img src="https://linktr.ee/favicon.ico" alt="" style="vertical-align: middle; width:16px; height:16px;">
+        Subscribe to midnight1111
+      </a>
+    </div>
   </footer>
 </section>
