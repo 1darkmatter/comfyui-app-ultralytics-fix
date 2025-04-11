@@ -16,14 +16,8 @@ This is due to **PyTorch’s enhanced security features** in version 2.6+, which
 
 When attempting to use a YOLO model inside the APP (especially via Ultralytics detailers), you may see:
 
-```python
-_pickle.UnpicklingError: Weights only load failed. GLOBAL 'getattr' was not an allowed global by default.
-This is because torch.load() now enforces weights_only=True by default — and YOLO checkpoints require getattr() during deserialization, which isn’t safe-listed.
-
-✅ The Fix
-This patch safely re-enables required globals for YOLO model compatibility inside the ComfyUI APP.
-
----
+</pre>```python
+_pickle.UnpicklingError: Weights only load failed. GLOBAL 'getattr' was not an allowed global by default.``` </pre>
 
 ##This is because torch.load() now enforces weights_only=True by default — and YOLO checkpoints require getattr() during deserialization, which isn’t safe-listed.
 
