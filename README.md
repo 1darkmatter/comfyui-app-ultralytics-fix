@@ -1,11 +1,11 @@
 <section>
-  <h1>ComfyUI APP – Ultralytics Model Fix (Impact Pack Compatible)</h1>
-  <p><strong>Patch for enabling YOLOv8/v10 model support in ComfyUI APP + Impact Pack under PyTorch 2.6+</strong></p>
+  <h1>ComfyUI – Ultralytics Model Fix (Impact Pack Compatible)</h1>
+  <p><strong>Patch for enabling YOLOv8/v10 model support in ComfyUI + Impact Pack under PyTorch 2.6+</strong></p>
   <hr/>
 
   <h2>📌 Context</h2>
   <p>
-    If you're using the <strong>ComfyUI APP</strong> (downloadable installer version, not the GitHub clone)
+    If you're using the <strong>ComfyUI</strong> (downloadable installer version, not the GitHub clone)
     along with the
     <a href="https://github.com/ltdrdata/ComfyUI-Impact-Pack" target="_blank" rel="noopener">Impact Pack</a>,
     you may encounter model loading issues when trying to use
@@ -29,7 +29,7 @@ _pickle.UnpicklingError: Weights only load failed. GLOBAL 'getattr' was not an a
 
   <h2>✅ The Fix</h2>
   <p>
-    This patch safely re‑enables required globals for YOLO model compatibility inside the ComfyUI APP,
+    This patch safely re‑enables required globals for YOLO model compatibility inside the ComfyUI,
     without compromising the integrity of PyTorch’s security model.
   </p>
   <p>
@@ -44,14 +44,14 @@ _pickle.UnpicklingError: Weights only load failed. GLOBAL 'getattr' was not an a
   <h3>🔐 About This Patch</h3>
   <ul>
     <li>Fully supports Ultralytics YOLOv8 and YOLOv10</li>
-    <li>Maintains compatibility with ComfyUI App + Impact Pack</li>
+    <li>Maintains compatibility with ComfyUI + Impact Pack</li>
     <li>Avoids unsafe global exposure — only <code>getattr</code> is explicitly permitted</li>
     <li>Designed specifically for PyTorch 2.6+ changes</li>
   </ul>
 
   <h3>🔧 Compatibility</h3>
   <ul>
-    <li><strong>ComfyUI APP:</strong> Official installed version</li>
+    <li><strong>ComfyUI:</strong> Official installed version</li>
     <li><strong>Impact Pack:</strong> Latest build</li>
     <li><strong>PyTorch:</strong> 2.6+</li>
     <li><strong>YOLO Models:</strong> v8, v10 (Ultralytics format)</li>
