@@ -37,8 +37,8 @@ _pickle.UnpicklingError: Weights only load failed. GLOBAL 'getattr' was not an a
     typically found in the <code>comfyui-impact-subpack/modules/</code> directory.
   </p>
   <ul>
-    <li><a href="🔗 comfyui-impact-ultralytics-patch">Minimal fix snippet</a></li>
-    <li><a href="📄 full_subcore.py">Full example of a patched module</a></li>
+    <li><a href="[🔗 comfyui-impact-ultralytics-patch](https://github.com/1darkmatter/comfyui-app-ultralytics-fix/blob/main/comfyui-impact-ultralytics-patch)">Minimal fix snippet</a></li>
+    <li><a href="[📄 full_subcore.py](https://github.com/1darkmatter/comfyui-app-ultralytics-fix/blob/main/full_subcore.py)">Full example of a patched module</a></li>
   </ul>
 
   <h3>🔐 About This Patch</h3>
