@@ -37,8 +37,8 @@ _pickle.UnpicklingError: Weights only load failed. GLOBAL 'getattr' was not an a
     typically found in the <code>comfyui-impact-subpack/modules/</code> directory.
   </p>
   <ul>
-    <li><a href="[🔗 comfyui-impact-ultralytics-patch](https://github.com/1darkmatter/comfyui-app-ultralytics-fix/blob/main/comfyui-impact-ultralytics-patch)">Minimal fix snippet</a></li>
-    <li><a href="[📄 full_subcore.py](https://github.com/1darkmatter/comfyui-app-ultralytics-fix/blob/main/full_subcore.py)">Full example of a patched module</a></li>
+    <li><a href="https://github.com/1darkmatter/comfyui-app-ultralytics-fix/blob/main/comfyui-impact-ultralytics-patch" target="_blank" rel="noopener">Minimal fix snippet</a></li>
+    <li><a href="https://github.com/1darkmatter/comfyui-app-ultralytics-fix/blob/main/full_subcore.py" target="_blank" rel="noopener">Full example of a patched module</a></li>
   </ul>
 
   <h3>🔐 About This Patch</h3>
@@ -56,4 +56,14 @@ _pickle.UnpicklingError: Weights only load failed. GLOBAL 'getattr' was not an a
     <li><strong>PyTorch:</strong> 2.6+</li>
     <li><strong>YOLO Models:</strong> v8, v10 (Ultralytics format)</li>
   </ul>
+
+  <hr/>
+  <footer>
+    <p>Credits:</p>
+    <ul>
+      <li><a href="https://civitai.com/user/midnight1111" target="_blank" rel="noopener">midnight1111 on Civitai</a></li>
+      <li><a href="https://magnabos.co/" target="_blank" rel="noopener">Magnabos</a></li>
+      <li><a href="https://linktr.ee/midnight1111?subscribe" target="_blank" rel="noopener">Subscribe to midnight1111</a></li>
+    </ul>
+  </footer>
 </section>
