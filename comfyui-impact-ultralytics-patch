@@ -1,0 +1,29 @@
+import torch
+
+orig_torch_load = torch.load
+
+def torch_wrapper(*args, **kwargs):
+    if 'weights_only' in kwargs:
+        weights_only = kwargs.pop('weights_only')
+    else:
+        weights_only = None
+
+    try:
+        import torch.serialization
+        torch.serialization.add_safe_globals([getattr])
+    except Exception as e:
+        print(f"[Impact Subpack] Could not register safe globals: {e}")
+
+    if hasattr(torch.serialization, 'safe_globals'):
+        if weights_only is not None:
+            kwargs['weights_only'] = weights_only
+        return orig_torch_load(*args, **kwargs)
+    else:
+        if weights_only is not None:
+            kwargs['weights_only'] = weights_only
+        else:
+            print("[Impact Subpack] Legacy PyTorch fallback — using weights_only=False")
+            kwargs['weights_only'] = False
+        return orig_torch_load(*args, **kwargs)
+
+torch.load = torch_wrapper
