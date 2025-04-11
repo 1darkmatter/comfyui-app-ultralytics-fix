@@ -66,10 +66,6 @@ _pickle.UnpicklingError: Weights only load failed. GLOBAL 'getattr' was not an a
         <img src="https://civitai.com/favicon.ico" alt="" style="vertical-align: middle; width:16px; height:16px;">
         midnight1111 on Civitai
       </a>
-      <a href="https://magnabos.co/" target="_blank" rel="noopener" style="text-decoration: none;">
-        <img src="https://magnabos.co/favicon.ico" alt="" style="vertical-align: middle; width:16px; height:16px;">
-        Magnabos.co
-      </a>
       <a href="https://linktr.ee/midnight1111?subscribe" target="_blank" rel="noopener" style="text-decoration: none;">
         <img src="https://linktr.ee/favicon.ico" alt="" style="vertical-align: middle; width:16px; height:16px;">
         Subscribe to midnight1111
